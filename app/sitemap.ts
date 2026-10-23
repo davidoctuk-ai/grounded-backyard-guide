@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 
+export const dynamic = "force-static";
+
 const baseUrl = "https://grounded-backyard-guide.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
